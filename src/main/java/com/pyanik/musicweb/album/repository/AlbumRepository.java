@@ -1,0 +1,9 @@
+package com.pyanik.musicweb.album.repository;
+
+import com.pyanik.musicweb.common.model.Album;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AlbumRepository extends JpaRepository<Album, Long> {
+}
